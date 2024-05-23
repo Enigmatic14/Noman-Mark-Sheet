@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lavender;
+}
+
+H1 {
+  font-size: 3vw;
+  text-align: center;
+  margin-top: 7vh;
+}
+.container {
+  margin-top: 4vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-left: 2vw;
+    margin-right: 2vw; */
+}
+
+#addList {
+  background-color: rgb(0, 255, 72);
+  color: black;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#deleteList {
+  background-color: rgb(255, 0, 0);
+  color: black;
+  padding: 4px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 8px;
+}

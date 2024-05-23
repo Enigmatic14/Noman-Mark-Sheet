@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mark Sheet Table</title>
+  </head>
+
+  <body>
+    <h1>INPUT FIELDS FOR MARK SHEET</h1>
+    <div class="container">
+      <input type="text" placeholder="Student name" id="studentName" />
+      <input type="text" placeholder="Maths marks out of 100" id="mathsMarks" />
+      <input type="text" placeholder="Urdu marks out of 100" id="urduMarks" />
+      <input type="text" placeholder="English marks out of 100" id="englishMarks" />
+      <input type="text" placeholder="Science marks out of 100" id="scienceMarks" />
+      <button id="addList">Add to List</button>
+      <button id="deleteList">Delete All</button>
+    </div>
+
+    <h1>Mark Sheet Table</h1>
+    <table id="tableData">
+      <tr>
+        <th>Student Name</th>
+        <th>Maths</th>
+        <th>Urdu</th>
+        <th>English</th>
+        <th>Science</th>
+        <th>Marks Obtained</th>
+        <th>Total Marks</th>
+        <th>Percentage</th>
+        <th>Grade</th>
+      </tr>
+      <tr>
+        <td id="markSheetName"></td>
+        <td id="markSheetMaths"></td>
+        <td id="markSheetUrdu"></td>
+        <td id="markSheetEnglish"></td>
+        <td id="markSheetScience"></td>
+        <td id="markSheetObtainedMarks"></td>
+        <td id="markSheetTotalMarks"></td>
+        <td id="markSheetPercentage"></td>
+        <td id="markSheetGrade"></td>
+      </tr>
+    </table>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
